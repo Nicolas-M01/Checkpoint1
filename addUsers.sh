@@ -26,4 +26,10 @@ do
     if [ $? -eq 0 ]
       echo "L"utilisateur $user a été créé"
       
-      # Si la commande précédente renvoie
+      # Si la commande précédente renvoie autre chose que 0,
+      # ça veut dire que la création du dossier n'a pas marché
+      else
+        echo "Erreur à la création de l'utilisateur $user"
+      fi
+    fi
+done
