@@ -9,7 +9,7 @@
 4) Quelles commandes git utiliser pour fusionner les branches main et test_valide ?
 `git add`
 `git push`
-`git merge origin main`
+`git merge branch`
 
 
 5) Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant :  
@@ -36,6 +36,8 @@ Quelle commande te permet de mettre en avant le processus gedit ?
   `mkdir : New-Item -Type Directory -Path xxxx`  
   `ls : Get-ChildItem -Path xxxx`  
    
-10. Dans la trame ethernet, qu'est-ce que le payload ?
-    
+10. Dans la trame ethernet, qu'est-ce que le payload ?  
+  `Le payload est le contenu paquet à envoyer, il se trouve après le header`
+
 11. Pourquoi les classes IP sont remplacées par le CIDR ?
+  `Car il n'y a plus assez de place dans le monde pour attribuer des addresses. D'ailleurs l'IPv4 (32 bits) permet d'attribuer 4 294 967 296 adresses et est quasi au maximum, nous devons donc utiliser des réseaux locaux comme 192.168.0.0 pour libérer des adresses publiques. L'IPv6 a été mis en place pour gérer bien plus d'adresse que l'IPv4`
