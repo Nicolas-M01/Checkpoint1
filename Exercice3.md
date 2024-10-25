@@ -24,9 +24,18 @@
 `[1]  37970 En cours d'exécution   gedit &`  
 `[2]  37971 En cours d'exécution   xeyes &`  
 `[3]- 37972 En cours d'exécution   sleep`  
-
 Quelle commande te permet de mettre en avant le processus gedit ?
-7. Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
-8. Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
-9. Dans la trame ethernet, qu'est-ce que le payload ?
-10. Pourquoi les classes IP sont remplacées par le CIDR ?
+
+
+7. Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.  
+ `En couches 2 et 3 il y a le switch en couche 2, car il gère les adresses MAC (il y a aussi les cartes reseau), en couche 3 il y a les routeurs car ils gèrent les adresses IP qui sont de niveau 3`
+
+8. Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.  
+  `cd : Set-Location -Path xxxx`  
+  `cp : Move-Item -Path xxxx -Destination yyyy`  
+  `mkdir : New-Item -Type Directory -Path xxxx`  
+  `ls : Get-ChildItem -Path xxxx`  
+   
+10. Dans la trame ethernet, qu'est-ce que le payload ?
+    
+11. Pourquoi les classes IP sont remplacées par le CIDR ?
